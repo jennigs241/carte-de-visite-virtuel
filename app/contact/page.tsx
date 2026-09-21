@@ -45,15 +45,15 @@ export default function ContactPage() {
           <ArrowLeft size={16} /> Retour à l'accueil
         </Link>
 
-        <h1 className="text-3xl font-bold mb-2">Contactez-nous</h1>
+        <h1 className="text-3xl font-bold mb-2">Contactez-moi</h1>
         <p className="text-gray-300 mb-8 text-sm">
-          Envoyez-nous un message, il sera acheminé directement vers notre boîte de réception.
+          Envoyez-moi un message, il sera acheminé directement vers ma boîte de réception.
         </p>
 
         {submitted ? (
           <div className="bg-emerald-800/50 border border-emerald-500 p-6 rounded-2xl text-center space-y-4">
             <h2 className="text-xl font-bold text-emerald-200">Message envoyé avec succès !</h2>
-            <p className="text-sm text-gray-200">Merci de nous avoir contactés. Nous vous répondrons dans les plus brefs délais.</p>
+            <p className="text-sm text-gray-200">Merci de m'avoir contactés. je  vous répondrais dans les plus brefs délais.</p>
             <button
               onClick={() => setSubmitted(false)}
               className="mt-4 px-6 py-2 bg-white text-[#0d233a] font-semibold rounded-xl text-sm hover:bg-gray-100 transition-all"

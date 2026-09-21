@@ -97,7 +97,7 @@ export default function Home() {
             </div>
             <div className="text-left">
               <p className="text-xs font-semibold text-gray-400 tracking-wider">
-                ÉCRIVEZ-NOUS
+                ÉCRIVEZ-MOI
               </p>
               <p className="text-sm font-medium text-white">
                 Envoyer un message direct
